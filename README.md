@@ -5,7 +5,7 @@
 NativeScript plugin using the [TelegramGallery Image Picker library](https://github.com/TangXiaoLv/TelegramGallery) for a customized image picker.
 
 ### 
-![Sample](screens/sample.gif)  ![library Sample](https://github.com/TangXiaoLv/TelegramGallery/raw/master/png/1.gif)
+![library Sample](https://github.com/TangXiaoLv/TelegramGallery/raw/master/png/1.gif)
 
 ## License
 This plugin is licensed under the MITlicense by Brad Martin

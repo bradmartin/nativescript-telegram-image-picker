@@ -5,6 +5,7 @@ docs/
 bin/
 tests/
 screenshots/
+screens/
 graphics/
 .vs/
 .idea/

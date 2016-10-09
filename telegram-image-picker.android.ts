@@ -11,13 +11,17 @@
 
 'use strict';
 import * as app from 'application';
-
+import { isIOS } from 'platform';
 declare var com, android: any;
 
 const GalleryActivity = com.tangxiaolv.telegramgallery.GalleryActivity;
 
 export function openTelegramImagePicker(photoLimit: number = 1): Promise<TelegramPickerResponse> {
   return new Promise((resolve, reject) => {
+
+    if (isIOS) {
+       resolve('Plugin does not support iOS.');
+    }
 
     let activity = app.android.startActivity || app.android.foregroundActivity;
     let singlePhoto: boolean;

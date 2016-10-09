@@ -2,7 +2,9 @@
 [![npm](https://img.shields.io/npm/dt/nativescript-telegram-image-picker.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-telegram-image-picker)
 
 # NativeScript-Telegram-Image-Picker
-NativeScript plugin using the [TelegramGallery Image Picker library](https://github.com/TangXiaoLv/TelegramGallery) for a customized image picker.
+NativeScript plugin using the [TelegramGallery Image Picker library](https://github.com/TangXiaoLv/TelegramGallery) for a customized image picker for Android.
+
+** ANDROID ONLY ** - this plugin uses a native Android library so there is no direct equivalent for iOS.
 
 ### 
 ![library Sample](https://github.com/TangXiaoLv/TelegramGallery/raw/master/png/1.gif)

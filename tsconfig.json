@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "noEmitHelpers": true,
+        "declaration": false
+    },
+    "files": [
+        "demo/node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "telegram-image-picker.ts"
+    ],
+    "compileOnSave": false
+}

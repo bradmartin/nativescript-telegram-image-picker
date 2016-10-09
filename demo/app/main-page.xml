@@ -1,0 +1,14 @@
+<Page 
+  xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <ActionBar title="Telegram Image Picker" />
+  <StackLayout class="p-10">
+    <StackLayout class="form">
+      <StackLayout class="input-field">
+        <Label text="Picture Limit" textWrap="true" />
+        <TextView hint="Picture Limit" keyboardType="number" text="{{ pictureLimit }}" editable="true" />
+      </StackLayout>
+      <Button text="Open Image Picker" tap="{{ onTap }}" class="btn btn-primary" />
+    </StackLayout>
+    <Label text="{{ message }}" class="body" textWrap="true"/>
+  </StackLayout>
+</Page>

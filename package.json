@@ -45,7 +45,6 @@
         "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
         "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-telegram-image-picker && tns plugin add .. && tns install",
         "setup": "cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
-        "prepublish": "tsc",
         "start": "npm run demo.ios"
     }
 }

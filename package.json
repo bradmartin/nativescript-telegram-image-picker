@@ -1,8 +1,8 @@
 {
     "name": "nativescript-telegram-image-picker",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "NativeScript plugin using the TelegramGallery Image Picker library for a customized image picker.",
-    "main": "telegram-image-picker.js",
+    "main": "telegram-image-picker",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {

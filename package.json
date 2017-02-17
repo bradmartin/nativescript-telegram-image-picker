@@ -1,6 +1,6 @@
 {
     "name": "nativescript-telegram-image-picker",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "NativeScript plugin using the TelegramGallery Image Picker library for a customized image picker.",
     "main": "telegram-image-picker",
     "typings": "index.d.ts",
@@ -28,6 +28,12 @@
         "name": "Brad Martin",
         "email": "bradwaynemartin@gmail.com"
     },
+    "contributors": [
+        {
+            "name": "Daxito",
+            "url": "https://github.com/Daxito"
+        }
+    ],
     "license": {
         "type": "MIT",
         "url": "https://github.com/bradmartin/nativescript-telegram-image-picker/blob/master/LICENSE"
